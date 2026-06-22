@@ -1,12 +1,20 @@
 # Core data / EDA
+# NOTE: numpy pinned <2 because the last PyTorch wheel for Intel macOS is
+# 2.2.2, which is built against the NumPy 1.x ABI.
 pandas>=2.0
-numpy>=1.24
+numpy<2
 pyarrow>=14.0
 matplotlib>=3.7
 
-# Task 2-4 (RAG pipeline) — added here so the env is reproducible end-to-end
-sentence-transformers>=2.2
+# Task 2-4 (RAG pipeline). transformers/sentence-transformers pinned to a set
+# compatible with torch 2.2.2 (Intel-mac ceiling).
+torch==2.2.2
+transformers==4.44.2
+sentence-transformers==2.7.0
+huggingface-hub==0.24.6
+tokenizers==0.19.1
 chromadb>=0.4
+langchain-text-splitters>=0.2
 faiss-cpu>=1.7
 
 # UI
