@@ -1,0 +1,52 @@
+{
+  "total_rows": 9609797,
+  "narratives_present": 2980756,
+  "narratives_absent": 6629041,
+  "rows_written_filtered": 454468,
+  "dropped_empty_after_clean": 4,
+  "kept_per_category": {
+    "Credit Card": 189333,
+    "Savings Account": 140317,
+    "Personal Loan": 26134,
+    "Money Transfer": 98684
+  },
+  "top_products_raw": {
+    "Credit reporting or other personal consumer reports": 4834855,
+    "Credit reporting, credit repair services, or other personal consumer reports": 2163857,
+    "Debt collection": 799197,
+    "Mortgage": 422254,
+    "Checking or savings account": 291178,
+    "Credit card": 226686,
+    "Credit card or prepaid card": 206369,
+    "Money transfer, virtual currency, or money service": 145066,
+    "Credit reporting": 140429,
+    "Student loan": 109717,
+    "Bank account or service": 86205,
+    "Vehicle loan or lease": 72957,
+    "Consumer Loan": 31574,
+    "Payday loan, title loan, or personal loan": 30641,
+    "Payday loan, title loan, personal loan, or advance loan": 16514
+  },
+  "word_count_all_narratives": {
+    "count": 2980756,
+    "min": 1,
+    "max": 6469,
+    "mean": 175.6,
+    "median": 114.0,
+    "p90": 364.0,
+    "p99": 1021.0,
+    "n_under_5_words": 3175,
+    "n_over_500_words": 160989
+  },
+  "word_count_kept_narratives": {
+    "count": 454468,
+    "min": 1,
+    "max": 6239,
+    "mean": 195.61,
+    "median": 131.0,
+    "p90": 407.0,
+    "p99": 1001.3300000000163,
+    "n_under_5_words": 268,
+    "n_over_500_words": 29030
+  }
+}

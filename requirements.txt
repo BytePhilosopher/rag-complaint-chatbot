@@ -1,0 +1,16 @@
+# Core data / EDA
+pandas>=2.0
+numpy>=1.24
+pyarrow>=14.0
+matplotlib>=3.7
+
+# Task 2-4 (RAG pipeline) — added here so the env is reproducible end-to-end
+sentence-transformers>=2.2
+chromadb>=0.4
+faiss-cpu>=1.7
+
+# UI
+gradio>=4.0
+
+# Testing
+pytest>=7.0
